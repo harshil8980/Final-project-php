@@ -1,0 +1,26 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the whole page */
+body {
+    background-color: #f5f5f5; /* Choose a color that fits your design */
+}
+
+/* Style for the footer */
+footer {
+    background-color: #333; /* Choose a color for the footer background */
+    color: #fff; /* Text color for the footer */
+    padding: 20px; /* Add some padding for better spacing */
+    position: fixed; /* Fixed positioning at the bottom of the viewport */
+    width: 100%; /* Take up the full width of the viewport */
+    bottom: 0; /* Stick to the bottom */
+}
+
+/* Center the text in the footer */
+footer p {
+    margin: 0;
+}
+
